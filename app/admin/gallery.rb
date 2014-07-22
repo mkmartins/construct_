@@ -1,4 +1,5 @@
 ActiveAdmin.register Gallery do
+  permit_params :image, :title, :category, :description
 
   
   # See permitted parameters documentation:
