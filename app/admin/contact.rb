@@ -1,4 +1,5 @@
 ActiveAdmin.register Contact do
+  permit_params :name, :email, :subject, :message
 
   
   # See permitted parameters documentation:
